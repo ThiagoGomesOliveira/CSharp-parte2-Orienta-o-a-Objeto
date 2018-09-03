@@ -12,9 +12,9 @@ namespace _1_ByteBank
         {
             ContaCorrente minhaConta = new ContaCorrente();
             minhaConta.saldo = 500;
+            Console.WriteLine(minhaConta.saldo);
 
-            ContaCorrente outraConta = minhaConta;
-            outraConta.saldo += 1000;
+            minhaConta.saldo += 200;
 
             Console.WriteLine(minhaConta.saldo);
             Console.ReadLine();
